@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+</head>
+<body>
+   <h2>Registration form</h2>
+   <form action="/registration">
+    <div>
+        <label for="username">username</label>
+        <input type="text" id="username">
+        <label for="password">password</label>
+        <input type="text" id="password">
+        <label for="email">Email</label>
+        <input type="email" id="email">
+    </div>
+   </form>
+    <h3>Which taxi do you require?</h3>
+    <form action="taxi-requirement">
+        <div>
+            <input type="radio" id="car">
+            <label for="car">Car</label>
+            <input type="radio" id="Van">
+            <label for="car">Van</label>
+            <input type="radio" id="tuktuk">
+            <label for="car">Tuk Tuk</label>
+
+        </div>
+    </form>
+    <h3>Choose your Extras</h3>
+    <form action="extra">
+        <div>
+            <input type="checkbox" id="babyseat">
+            <label for="baby-seat">Baby seat</label>
+            <input type="checkbox" id="wheelchair">
+            <label for="wheelchair-access">Wheelchair-access</label>
+            <input type="checkbox" id="privacywindows">
+            <label for="privacy-windows">Privacy-windows</label>
+
+        </div>
+    </form>
+    <h3>Where would you like us to pick you up?</h3>
+    <form action="pickup">
+        <div>
+            <label for="pickup">Pickup Location:</label>
+            <select name="" id="">
+                <option value="">Select One</option>
+            </select>
+        </div>
+    </form>
+    <h3>Additional Instructions</h3>
+    <form action="">
+        <div>
+            <label for="">Special</label>
+            <textarea name="add-instructions">provide special instructions here</textarea>
+            <input type="submit" value="Submit">
+
+        </div>
+    </form>
+
+
+
+</body>
+</html>
